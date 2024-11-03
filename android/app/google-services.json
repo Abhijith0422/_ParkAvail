@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "229908514681",
+    "project_id": "parkavail-9f48f",
+    "storage_bucket": "parkavail-9f48f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229908514681:android:a7d9fe3abbbd2cc69c91a8",
+        "android_client_info": {
+          "package_name": "com.example.book_my_park"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229908514681-97d3seiqaf5l9lkn7kad5vncv666svul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.book_my_park",
+            "certificate_hash": "8af1d81058b7b4cf45e82f1865c09cf1e644afb7"
+          }
+        },
+        {
+          "client_id": "229908514681-7qj766d1kfh186dq70qikv11257elvr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm8xMi_uVi4KY0FYf9fVez9p-LVJttews"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229908514681-7qj766d1kfh186dq70qikv11257elvr8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "229908514681-hg0t6ob97gmk3qtckv75k2kjvj061jfh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bookMyPark"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
