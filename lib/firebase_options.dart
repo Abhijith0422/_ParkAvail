@@ -51,11 +51,19 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
+<<<<<<< HEAD
     apiKey: 'AIzaSyCuL_AflqLVpk4G4OmmIbULm-W_nqp7pPM',
     appId: '1:133102442404:android:9fc5eb72126a55aaa3d331',
     messagingSenderId: '133102442404',
     projectId: 'parkavail-3c32c',
     storageBucket: 'parkavail-3c32c.firebasestorage.app',
+=======
+    apiKey: 'AIzaSyDm8xMi_uVi4KY0FYf9fVez9p-LVJttews',
+    appId: '1:229908514681:android:a7d9fe3abbbd2cc69c91a8',
+    messagingSenderId: '229908514681',
+    projectId: 'parkavail-9f48f',
+    storageBucket: 'parkavail-9f48f.firebasestorage.app',
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
@@ -64,8 +72,11 @@ class DefaultFirebaseOptions {
     messagingSenderId: '229908514681',
     projectId: 'parkavail-9f48f',
     storageBucket: 'parkavail-9f48f.firebasestorage.app',
+<<<<<<< HEAD
     androidClientId: '229908514681-97d3seiqaf5l9lkn7kad5vncv666svul.apps.googleusercontent.com',
     iosClientId: '229908514681-hg0t6ob97gmk3qtckv75k2kjvj061jfh.apps.googleusercontent.com',
+=======
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
     iosBundleId: 'com.example.bookMyPark',
   );
 
@@ -75,8 +86,11 @@ class DefaultFirebaseOptions {
     messagingSenderId: '229908514681',
     projectId: 'parkavail-9f48f',
     storageBucket: 'parkavail-9f48f.firebasestorage.app',
+<<<<<<< HEAD
     androidClientId: '229908514681-97d3seiqaf5l9lkn7kad5vncv666svul.apps.googleusercontent.com',
     iosClientId: '229908514681-hg0t6ob97gmk3qtckv75k2kjvj061jfh.apps.googleusercontent.com',
+=======
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
     iosBundleId: 'com.example.bookMyPark',
   );
 

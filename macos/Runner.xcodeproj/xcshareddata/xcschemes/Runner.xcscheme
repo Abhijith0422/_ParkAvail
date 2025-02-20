@@ -15,7 +15,11 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
                BuildableName = "parkavail.app"
+=======
+               BuildableName = "book_my_park.app"
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
                BlueprintName = "Runner"
                ReferencedContainer = "container:Runner.xcodeproj">
             </BuildableReference>
@@ -31,7 +35,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "parkavail.app"
+=======
+            BuildableName = "book_my_park.app"
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -59,14 +67,21 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
+<<<<<<< HEAD
       enableGPUValidationMode = "1"
+=======
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "parkavail.app"
+=======
+            BuildableName = "book_my_park.app"
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -83,7 +98,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "parkavail.app"
+=======
+            BuildableName = "book_my_park.app"
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>

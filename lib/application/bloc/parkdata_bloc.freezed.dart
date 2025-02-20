@@ -50,9 +50,13 @@ mixin _$ParkdataEvent {
   }) =>
       throw _privateConstructorUsedError;
 
+<<<<<<< HEAD
   /// Create a copy of ParkdataEvent
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
+=======
+  @JsonKey(ignore: true)
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
   $ParkdataEventCopyWith<ParkdataEvent> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -76,8 +80,11 @@ class _$ParkdataEventCopyWithImpl<$Res, $Val extends ParkdataEvent>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+<<<<<<< HEAD
   /// Create a copy of ParkdataEvent
   /// with the given fields replaced by the non-null parameter values.
+=======
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -111,8 +118,11 @@ class __$$ParkdataImplCopyWithImpl<$Res>
       _$ParkdataImpl _value, $Res Function(_$ParkdataImpl) _then)
       : super(_value, _then);
 
+<<<<<<< HEAD
   /// Create a copy of ParkdataEvent
   /// with the given fields replaced by the non-null parameter values.
+=======
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -152,9 +162,13 @@ class _$ParkdataImpl implements _Parkdata {
   @override
   int get hashCode => Object.hash(runtimeType, districtname);
 
+<<<<<<< HEAD
   /// Create a copy of ParkdataEvent
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
+=======
+  @JsonKey(ignore: true)
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
   @override
   @pragma('vm:prefer-inline')
   _$$ParkdataImplCopyWith<_$ParkdataImpl> get copyWith =>
@@ -222,11 +236,16 @@ abstract class _Parkdata implements ParkdataEvent {
 
   @override
   String get districtname;
+<<<<<<< HEAD
 
   /// Create a copy of ParkdataEvent
   /// with the given fields replaced by the non-null parameter values.
   @override
   @JsonKey(includeFromJson: false, includeToJson: false)
+=======
+  @override
+  @JsonKey(ignore: true)
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
   _$$ParkdataImplCopyWith<_$ParkdataImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -238,9 +257,13 @@ mixin _$ParkdataState {
   Option<Either<MainFailure, List<Apimodel>>> get failureOrData =>
       throw _privateConstructorUsedError;
 
+<<<<<<< HEAD
   /// Create a copy of ParkdataState
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
+=======
+  @JsonKey(ignore: true)
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
   $ParkdataStateCopyWith<ParkdataState> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -267,8 +290,11 @@ class _$ParkdataStateCopyWithImpl<$Res, $Val extends ParkdataState>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
+<<<<<<< HEAD
   /// Create a copy of ParkdataState
   /// with the given fields replaced by the non-null parameter values.
+=======
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -315,8 +341,11 @@ class __$$ParkdataStateImplCopyWithImpl<$Res>
       _$ParkdataStateImpl _value, $Res Function(_$ParkdataStateImpl) _then)
       : super(_value, _then);
 
+<<<<<<< HEAD
   /// Create a copy of ParkdataState
   /// with the given fields replaced by the non-null parameter values.
+=======
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -384,9 +413,13 @@ class _$ParkdataStateImpl implements _ParkdataState {
   int get hashCode => Object.hash(runtimeType, isLoading,
       const DeepCollectionEquality().hash(_parkdata), failureOrData);
 
+<<<<<<< HEAD
   /// Create a copy of ParkdataState
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
+=======
+  @JsonKey(ignore: true)
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
   @override
   @pragma('vm:prefer-inline')
   _$$ParkdataStateImplCopyWith<_$ParkdataStateImpl> get copyWith =>
@@ -406,11 +439,16 @@ abstract class _ParkdataState implements ParkdataState {
   List<Apimodel> get parkdata;
   @override
   Option<Either<MainFailure, List<Apimodel>>> get failureOrData;
+<<<<<<< HEAD
 
   /// Create a copy of ParkdataState
   /// with the given fields replaced by the non-null parameter values.
   @override
   @JsonKey(includeFromJson: false, includeToJson: false)
+=======
+  @override
+  @JsonKey(ignore: true)
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
   _$$ParkdataStateImplCopyWith<_$ParkdataStateImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

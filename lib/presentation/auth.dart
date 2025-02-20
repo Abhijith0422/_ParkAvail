@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 import 'mainpage.dart';
+=======
+import 'package:book_my_park/presentation/mainpage.dart';
+import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
 import 'signup/login.dart';
 
 class AuthPage extends StatelessWidget {

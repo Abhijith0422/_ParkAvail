@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 name: ParkAvail
 description: "ParkAvail - Smart Parking Solution"
+=======
+name: book_my_park
+description: "A new Flutter project."
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -19,7 +24,11 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
+<<<<<<< HEAD
   sdk: ^3.7.0
+=======
+  sdk: '>=3.3.4 <4.0.0'
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -30,6 +39,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+<<<<<<< HEAD
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -65,6 +75,37 @@ dependencies:
   
 
   
+=======
+  google_maps_flutter: ^2.2.8
+  build_runner: ^2.4.9
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  dio: ^5.7.0
+  flutter_polyline_points: ^2.1.0
+  url_launcher: ^6.3.1
+  google_fonts: ^6.2.1
+  upi_india: ^3.0.1
+  flutter_bloc: ^8.1.6
+  json_serializable: ^6.8.0
+  json_annotation: ^4.9.0
+  freezed_annotation: ^2.4.4
+  dartz: ^0.10.1
+  get_it: 7.2.0
+  bloc: ^8.1.4
+  intl: ^0.19.0
+  injectable: 2.4.2
+  auto_size_text: ^3.0.0
+  flutter_native_splash: ^2.0.5+1
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  google_sign_in: ^6.2.1
+
+  
+  
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
 
 dev_dependencies:
   flutter_test:
@@ -75,9 +116,16 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
+<<<<<<< HEAD
   flutter_lints: ^5.0.0
   freezed: ^2.5.2
   injectable_generator: ^2.4.0
+=======
+  flutter_lints: ^3.0.0
+  freezed: ^2.5.2
+  injectable_generator: ^2.4.0
+  
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -89,6 +137,7 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+<<<<<<< HEAD
 
   # To add assets to your application, add an assets section, like this:
   assets:
@@ -103,6 +152,36 @@ flutter:
 
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/to/asset-from-package
+=======
+   
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+      - assets/logo1.png
+      - assets/Alaapuzha.png
+      - assets/Ernakulam.png
+      - assets/kannur.png
+      - assets/kasargod.png
+      - assets/Kozhikode.png
+      - assets/malapuram.png
+      - assets/palakad.png
+      - assets/Pathanamthitta.png
+      - assets/trissur.png
+      - assets/Trivandrum.png
+      - assets/idukki.png
+      - assets/kollam.png
+      - assets/wayanad.png
+      - assets/Kottayam.png
+      - assets/noimage.jpg
+      - assets/glogo.png
+      
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
@@ -122,6 +201,7 @@ flutter:
   #         weight: 700
   #
   # For details regarding fonts from package dependencies,
+<<<<<<< HEAD
   # see https://flutter.dev/to/font-from-package
 
 flutter_native_splash:
@@ -139,3 +219,6 @@ flutter_native_splash:
     icon_background_color_dark: "#0C0C0C"
 
   web: false
+=======
+  # see https://flutter.dev/custom-fonts/#from-packages
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c

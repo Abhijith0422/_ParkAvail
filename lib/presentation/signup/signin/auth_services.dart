@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 import 'dart:developer';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+=======
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:google_sign_in/google_sign_in.dart';
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
 
 class AuthServices {
   Future<bool> signInWithGoogle() async {
@@ -20,12 +25,21 @@ class AuthServices {
         idToken: gAuth.idToken,
       );
 
+<<<<<<< HEAD
       final UserCredential userCredential = await FirebaseAuth.instance
           .signInWithCredential(credential);
 
       return userCredential.user != null;
     } catch (e) {
       log("Error during Google Sign-In: $e");
+=======
+      final UserCredential userCredential =
+          await FirebaseAuth.instance.signInWithCredential(credential);
+
+      return userCredential.user != null;
+    } catch (e) {
+      print("Error during Google Sign-In: $e");
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
       return false;
     }
   }
@@ -36,7 +50,11 @@ class AuthServices {
           .signInWithEmailAndPassword(email: email, password: password);
       return userCredential.user != null;
     } catch (e) {
+<<<<<<< HEAD
       log("Error during email sign-in: $e");
+=======
+      print("Error during email sign-in: $e");
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
       return false;
     }
   }
@@ -47,6 +65,7 @@ class AuthServices {
           .createUserWithEmailAndPassword(email: email, password: password);
       return userCredential.user != null;
     } catch (e) {
+<<<<<<< HEAD
       log("Error during email registration: $e");
       return false;
     }
@@ -70,6 +89,9 @@ class AuthServices {
           data['phone'].isNotEmpty;
     } catch (e) {
       print('Error checking user info: $e');
+=======
+      print("Error during email registration: $e");
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
       return false;
     }
   }
@@ -82,7 +104,11 @@ Future<bool> signOut() async {
     await GoogleSignIn().signOut();
     return true;
   } catch (e) {
+<<<<<<< HEAD
     log("Error while signout: $e");
+=======
+    print("Error while signout: $e");
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
     return false;
   }
 }

@@ -1,0 +1,11 @@
+# This is an example configuration file for the flutter_native_splash package.
+# Customize the settings as needed.
+
+flutter_native_splash:
+  color: "#171F2B"  # Background color of the splash screen
+  image: assets/logo1.png # Path to the splash screen image
+  android: true # Enable splash screen for Android
+  ios: true # Enable splash screen for iOS
+  web: false # Disable splash screen for web
+  fullscreen: false # Enable fullscreen mode
+  background_image: assets/logo1.png # Path to the background image for the splash screen on Android

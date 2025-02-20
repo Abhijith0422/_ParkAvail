@@ -1,3 +1,8 @@
 {
+<<<<<<< HEAD
     "java.configuration.updateBuildConfiguration": "automatic"
+=======
+    "cmake.sourceDirectory": "C:/Users/abhij/OneDrive/Desktop/Book My Park/book_my_park/windows/runner",
+    "java.configuration.updateBuildConfiguration": "interactive"
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
 }

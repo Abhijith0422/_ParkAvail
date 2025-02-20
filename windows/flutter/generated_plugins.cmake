@@ -3,6 +3,7 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+<<<<<<< HEAD
   app_links
   cloud_firestore
   connectivity_plus
@@ -10,6 +11,10 @@ list(APPEND FLUTTER_PLUGIN_LIST
   firebase_auth
   firebase_core
   printing
+=======
+  firebase_auth
+  firebase_core
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
   url_launcher_windows
 )
 

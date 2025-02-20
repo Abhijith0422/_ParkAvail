@@ -1,10 +1,18 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+<<<<<<< HEAD
 project(parkavail LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "parkavail")
+=======
+project(book_my_park LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "book_my_park")
+>>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.
