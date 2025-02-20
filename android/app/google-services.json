@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "675175533242",
+    "project_id": "parkavail-655b5",
+    "storage_bucket": "parkavail-655b5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675175533242:android:cbf68615206aaf831ed083",
+        "android_client_info": {
+          "package_name": "com.example.parkavail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675175533242-dvvvop1pnqep1j4gn1chpjnrgll9p2ss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parkavail",
+            "certificate_hash": "b1830b4fa94d6fd59941aa64232249105539054b"
+          }
+        },
+        {
+          "client_id": "675175533242-jho3ld2mvgrlicnrgmbl600kegnn2lhb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parkavail",
+            "certificate_hash": "84a5da48365c808c5d79af6b09f634cadaface65"
+          }
+        },
+        {
+          "client_id": "675175533242-3j071envsc61nqqtlm8ivpjsfrt909jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq51S15D-D0jU94kWawMDQne0G2Sv_EQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675175533242-3j071envsc61nqqtlm8ivpjsfrt909jg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
