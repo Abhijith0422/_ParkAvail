@@ -1,32 +1,19 @@
 {
   "project_info": {
-<<<<<<< HEAD
     "project_number": "675175533242",
     "project_id": "parkavail-655b5",
     "storage_bucket": "parkavail-655b5.firebasestorage.app"
-=======
-    "project_number": "229908514681",
-    "project_id": "parkavail-9f48f",
-    "storage_bucket": "parkavail-9f48f.firebasestorage.app"
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
   },
   "client": [
     {
       "client_info": {
-<<<<<<< HEAD
         "mobilesdk_app_id": "1:675175533242:android:cbf68615206aaf831ed083",
         "android_client_info": {
           "package_name": "com.example.parkavail"
-=======
-        "mobilesdk_app_id": "1:229908514681:android:a7d9fe3abbbd2cc69c91a8",
-        "android_client_info": {
-          "package_name": "com.example.book_my_park"
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
         }
       },
       "oauth_client": [
         {
-<<<<<<< HEAD
           "client_id": "675175533242-dvvvop1pnqep1j4gn1chpjnrgll9p2ss.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -44,47 +31,20 @@
         },
         {
           "client_id": "675175533242-3j071envsc61nqqtlm8ivpjsfrt909jg.apps.googleusercontent.com",
-=======
-          "client_id": "229908514681-97d3seiqaf5l9lkn7kad5vncv666svul.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.book_my_park",
-            "certificate_hash": "8af1d81058b7b4cf45e82f1865c09cf1e644afb7"
-          }
-        },
-        {
-          "client_id": "229908514681-7qj766d1kfh186dq70qikv11257elvr8.apps.googleusercontent.com",
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
           "client_type": 3
         }
       ],
       "api_key": [
         {
-<<<<<<< HEAD
           "current_key": "AIzaSyDq51S15D-D0jU94kWawMDQne0G2Sv_EQU"
-=======
-          "current_key": "AIzaSyDm8xMi_uVi4KY0FYf9fVez9p-LVJttews"
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-<<<<<<< HEAD
               "client_id": "675175533242-3j071envsc61nqqtlm8ivpjsfrt909jg.apps.googleusercontent.com",
               "client_type": 3
-=======
-              "client_id": "229908514681-7qj766d1kfh186dq70qikv11257elvr8.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "229908514681-hg0t6ob97gmk3qtckv75k2kjvj061jfh.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.bookMyPark"
-              }
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
             }
           ]
         }

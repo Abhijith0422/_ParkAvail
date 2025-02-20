@@ -5,17 +5,11 @@
 *.swp
 .DS_Store
 .atom/
-<<<<<<< HEAD
 .build/
 .buildlog/
 .history
 .svn/
 .swiftpm/
-=======
-.buildlog/
-.history
-.svn/
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
 migrate_working_dir/
 
 # IntelliJ related
@@ -49,7 +43,3 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-<<<<<<< HEAD
-=======
-/lib/domain/api/apiendpoints.dart
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c

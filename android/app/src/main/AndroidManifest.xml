@@ -1,5 +1,4 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
     xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -30,64 +29,25 @@
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@style/NormalTheme"
               />
-=======
-    package="com.example.yourapp">
-
-    <!-- Permissions -->
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-
-    <application
-        android:label="ParkAvail"
-        android:icon="@mipmap/ic_launcher">
-        
-        <!-- Add your existing activity and intent filters here -->
-        <activity
-            android:name=".MainActivity"
-            android:launchMode="singleTop"
-            android:theme="@style/LaunchTheme"
-            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|screenLayout|density|layoutDirection|fontScale|uiMode"
-            android:hardwareAccelerated="true"
-            android:windowSoftInputMode="adjustResize"
-            android:exported="true"> <!-- Add this line -->
-            <meta-data
-                android:name="io.flutter.embedding.android.NormalTheme"
-                android:resource="@style/NormalTheme"
-                />
-            <meta-data
-                android:name="flutterEmbedding"
-                android:value="2" />
-            
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
 
-<<<<<<< HEAD
         <activity
             android:name="com.razorpay.CheckoutActivity"
             android:exported="false"
             android:theme="@style/CheckoutTheme"
             tools:replace="android:theme"/>
-=======
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
-<<<<<<< HEAD
     <!-- Required to query activities that can process text, see:
          https://developer.android.com/training/package-visibility and
-=======
-
-    <!-- Required to query activities that can process text, see:
-         https://developer.android.com/training/package-visibility?hl=en and
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
          https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
 
          In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin. -->
@@ -97,8 +57,4 @@
             <data android:mimeType="text/plain"/>
         </intent>
     </queries>
-<<<<<<< HEAD
 </manifest>
-=======
-</manifest>
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c

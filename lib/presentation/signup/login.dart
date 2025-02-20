@@ -1,7 +1,6 @@
 // ignore_for_file: use_build_context_synchronously
 
 import 'dart:async';
-<<<<<<< HEAD
 
 import 'package:flutter/material.dart';
 
@@ -11,13 +10,6 @@ import '../mainpage.dart';
 import '../profile/infopage.dart' as profile;
 import 'signin/auth_services.dart';
 import 'signup.dart';
-=======
-import 'package:book_my_park/presentation/mainpage.dart';
-import 'package:book_my_park/presentation/signup/signup.dart';
-import 'package:flutter/material.dart';
-
-import 'signin/auth_services.dart';
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -33,7 +25,6 @@ class _LoginPageState extends State<LoginPage> {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   Timer? _timer;
 
-<<<<<<< HEAD
   InputDecoration _getInputDecoration(String label, IconData icon) {
     return InputDecoration(
       labelText: label,
@@ -61,8 +52,6 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 
-=======
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
   Future<void> _signInWithEmailPassword() async {
     if (_formKey.currentState!.validate()) {
       bool success = await AuthServices().signInWithEmailPassword(
@@ -70,7 +59,6 @@ class _LoginPageState extends State<LoginPage> {
         _passwordController.text,
       );
       if (success) {
-<<<<<<< HEAD
         final user = FirebaseAuth.instance.currentUser;
         if (user != null) {
           bool isInfoComplete = await AuthServices().isUserInfoComplete(
@@ -102,17 +90,6 @@ class _LoginPageState extends State<LoginPage> {
             context,
           ).showSnackBar(const SnackBar(content: Text('Login failed')));
         }
-=======
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Login successful')),
-        );
-        _navigateToMainPage();
-        _startAutoRefresh();
-      } else {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Login failed')),
-        );
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
       }
     }
   }
@@ -120,7 +97,6 @@ class _LoginPageState extends State<LoginPage> {
   Future<void> _signInWithGoogle() async {
     bool success = await AuthServices().signInWithGoogle();
     if (success) {
-<<<<<<< HEAD
       final user = FirebaseAuth.instance.currentUser;
       if (user != null) {
         bool isInfoComplete = await AuthServices().isUserInfoComplete(user.uid);
@@ -149,17 +125,6 @@ class _LoginPageState extends State<LoginPage> {
           const SnackBar(content: Text('Google Sign-In canceled')),
         );
       }
-=======
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Google Sign-In successful')),
-      );
-      _navigateToMainPage();
-      _startAutoRefresh();
-    } else {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Google Sign-In canceled')),
-      );
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
     }
   }
 
@@ -186,7 +151,6 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-<<<<<<< HEAD
       body: Container(
         decoration: BoxDecoration(
           color: Theme.of(context).scaffoldBackgroundColor,
@@ -299,164 +263,11 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ],
                 ),
-=======
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Form(
-          key: _formKey,
-          child: SingleChildScrollView(
-            child: Padding(
-              padding: const EdgeInsets.fromLTRB(16, 200, 16, 10),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const Text(
-                    "ParkAvail",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      color: Colors.teal,
-                      fontSize: 35,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  const SizedBox(height: 35),
-                  // Email field
-                  TextFormField(
-                    controller: _emailController,
-                    decoration: const InputDecoration(
-                      labelText: 'Email',
-                    ),
-                    style: const TextStyle(
-                        color: Colors.blue), // Change text color here
-                    validator: (value) {
-                      if (value == null || value.isEmpty) {
-                        return 'Please enter your email';
-                      } else if (!RegExp(r'^[^@]+@[^@]+\.[^@]+')
-                          .hasMatch(value)) {
-                        return 'Please enter a valid email';
-                      }
-                      return null;
-                    },
-                  ),
-                  const SizedBox(height: 16.0),
-                  // Password field
-                  TextFormField(
-                    controller: _passwordController,
-                    decoration: const InputDecoration(
-                      labelText: 'Password',
-                    ),
-                    style: const TextStyle(
-                        color: Colors.blue), // Change text color here
-                    obscureText: true,
-                    validator: (value) {
-                      if (value == null || value.isEmpty) {
-                        return 'Please enter your password';
-                      }
-                      return null;
-                    },
-                  ),
-                  const SizedBox(height: 30.0),
-                  // Login button
-                  GestureDetector(
-                    onTap: _signInWithEmailPassword,
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 15.0,
-                        vertical: 10.0,
-                      ),
-                      margin: const EdgeInsets.symmetric(horizontal: 50),
-                      decoration: BoxDecoration(
-                        color: Theme.of(context).primaryColor,
-                        borderRadius: BorderRadius.circular(10.0),
-                      ),
-                      child: const Center(
-                        child: Text(
-                          'Login',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 18.0,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                  const SizedBox(height: 30),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
-                      Expanded(
-                        child: Container(
-                          padding: const EdgeInsets.only(left: 20, right: 8),
-                          child: const Divider(),
-                        ),
-                      ),
-                      const Text(
-                        "Or continue with",
-                        style: TextStyle(color: Colors.grey),
-                      ),
-                      Expanded(
-                        child: Container(
-                          padding: const EdgeInsets.only(left: 8, right: 20),
-                          child: const Divider(),
-                        ),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 30),
-
-                  GestureDetector(
-                    onTap: _signInWithGoogle,
-                    child: Center(
-                      child: Container(
-                        padding: const EdgeInsets.all(15),
-                        decoration: const BoxDecoration(
-                          shape: BoxShape.circle,
-                          color: Colors.white,
-                        ),
-                        child: Image.asset(
-                          'assets/glogo.png',
-                          width: 30,
-                          fit: BoxFit.cover,
-                        ),
-                      ),
-                    ),
-                  ),
-                  const SizedBox(
-                    height: 100,
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      const Text(
-                        "Don't have an account? ",
-                        style: TextStyle(color: Colors.white),
-                      ),
-                      GestureDetector(
-                        onTap: () => Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => SignupPage(),
-                          ),
-                        ),
-                        child: const Text(
-                          "Sign Up",
-                          style: TextStyle(
-                              color: Colors.blue, fontWeight: FontWeight.bold),
-                        ),
-                      )
-                    ],
-                  )
-                ],
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
               ),
             ),
           ),
         ),
       ),
-<<<<<<< HEAD
-=======
-      backgroundColor: const Color.fromARGB(255, 23, 31, 43),
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
     );
   }
 }

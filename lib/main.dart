@@ -1,19 +1,10 @@
-<<<<<<< HEAD
 // ignore_for_file: use_build_context_synchronously, deprecated_member_use
 
 import 'dart:async';
-=======
-// ignore_for_file: use_build_context_synchronously
-
-import 'package:book_my_park/application/bloc/parkdata_bloc.dart';
-import 'package:book_my_park/domain/core/injectable.dart';
-import 'package:book_my_park/presentation/auth.dart';
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:firebase_core/firebase_core.dart';
-<<<<<<< HEAD
 
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'application/bloc/parkdata_bloc.dart';
@@ -40,18 +31,6 @@ Future<void> main() async {
     print('Error initializing app: $e');
     // Handle initialization error appropriately
   }
-=======
-import 'firebase_options.dart';
-
-Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
-
-  await configureInjection();
-  runApp(const MyApp());
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
 }
 
 class MyApp extends StatelessWidget {
@@ -60,19 +39,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
-<<<<<<< HEAD
       providers: [BlocProvider(create: (context) => getit<ParkdataBloc>())],
-=======
-      providers: [
-        BlocProvider(create: (context) => getit<ParkdataBloc>()),
-      ],
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'ParkAvail',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(
-<<<<<<< HEAD
             seedColor: const Color(0xFFdc3558), // BookMyShow primary red
             brightness: Brightness.dark,
             background: const Color(0xFF1f2533), // Dark blue-grey
@@ -107,10 +79,6 @@ class MyApp extends StatelessWidget {
               ),
             ),
           ),
-=======
-              seedColor: const Color.fromARGB(255, 46, 197, 222)),
-          useMaterial3: true,
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
         ),
         home: const AuthPage(),
       ),

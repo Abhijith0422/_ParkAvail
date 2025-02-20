@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 // ignore_for_file: annotate_overrides, overridden_fields
 
-=======
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
 import 'package:flutter/rendering.dart';
 
 class CustomSliverGridDelegate
@@ -13,29 +10,17 @@ class CustomSliverGridDelegate
   final int columnsBeforeSpacing;
 
   CustomSliverGridDelegate({
-<<<<<<< HEAD
     required super.crossAxisCount,
-=======
-    required int crossAxisCount,
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
     required this.mainAxisSpacing,
     required this.crossAxisSpacing,
     required this.additionalSpacing,
     required this.columnsBeforeSpacing,
-<<<<<<< HEAD
   });
 
   @override
   SliverGridLayout getLayout(SliverConstraints constraints) {
     final double tileWidth =
         (constraints.crossAxisExtent -
-=======
-  }) : super(crossAxisCount: crossAxisCount);
-
-  @override
-  SliverGridLayout getLayout(SliverConstraints constraints) {
-    final double tileWidth = (constraints.crossAxisExtent -
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
             (crossAxisCount - 1) * crossAxisSpacing -
             ((crossAxisCount - 1) ~/ columnsBeforeSpacing) *
                 additionalSpacing) /
@@ -74,11 +59,7 @@ class SliverGridRegularTileLayout extends SliverGridLayout {
   final double additionalCrossAxisSpacing;
   final int columnsBeforeSpacing;
 
-<<<<<<< HEAD
   const SliverGridRegularTileLayout({
-=======
-  SliverGridRegularTileLayout({
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
     required this.crossAxisCount,
     required this.mainAxisStride,
     required this.crossAxisStride,
@@ -98,26 +79,16 @@ class SliverGridRegularTileLayout extends SliverGridLayout {
     if (column >= columnsBeforeSpacing) {
       crossAxisOffset +=
           ((column - columnsBeforeSpacing) ~/ columnsBeforeSpacing + 1) *
-<<<<<<< HEAD
           additionalCrossAxisSpacing;
-=======
-              additionalCrossAxisSpacing;
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
     }
 
     final double mainAxisOffset = row * mainAxisStride;
     return SliverGridGeometry(
       scrollOffset: mainAxisOffset,
-<<<<<<< HEAD
       crossAxisOffset:
           reverseCrossAxis
               ? crossAxisStride - crossAxisOffset - childCrossAxisExtent
               : crossAxisOffset,
-=======
-      crossAxisOffset: reverseCrossAxis
-          ? crossAxisStride - crossAxisOffset - childCrossAxisExtent
-          : crossAxisOffset,
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
       mainAxisExtent: childMainAxisExtent,
       crossAxisExtent: childCrossAxisExtent,
     );

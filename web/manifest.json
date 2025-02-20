@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
     "name": "parkavail",
     "short_name": "parkavail",
-=======
-    "name": "book_my_park",
-    "short_name": "book_my_park",
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

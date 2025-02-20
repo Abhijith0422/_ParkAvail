@@ -27,11 +27,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
-<<<<<<< HEAD
   if (!window.Create(L"parkavail", origin, size)) {
-=======
-  if (!window.Create(L"book_my_park", origin, size)) {
->>>>>>> 036b57e0e3b6b646c3710d1fd6ed73cbaec7d65c
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);
