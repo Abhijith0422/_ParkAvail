@@ -1,6 +1,6 @@
-import 'package:ParkAvail/domain/core/injectable.config.dart';
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
+import 'package:parkavail/domain/core/injectable.config.dart';
 
 import '../../infrastructure/apirepo.dart';
 
